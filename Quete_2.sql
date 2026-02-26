@@ -1,0 +1,10 @@
+-- 1. Afficher les véhicules triés par autonomie décroissante
+SELECT * FROM vehicule ORDER BY autonomie_km DESC;
+
+-- 2. Afficher les véhicules disponibles, triés par ville puis par marque
+SELECT * FROM vehicule 
+WHERE etat = 'disponible' 
+ORDER BY ville ASC, marque ASC;
+
+-- 3. Afficher la liste des clients par ordre alphabétique
+SELECT * FROM client ORDER BY nom ASC, prenom ASC

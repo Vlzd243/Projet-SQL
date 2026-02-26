@@ -1,0 +1,7 @@
+# PostgreSQL
+*.log
+*.sql.bak
+
+# OS
+.DS_Store
+Thumbs.db

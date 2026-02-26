@@ -16,4 +16,4 @@ Choix Techniques Justifiés
 
 Installation & Utilisation
 1. Importer le schéma de données dans pgAdmin ou via le terminal PostgreSQL.
-2. Exécuter le fichier `requetes.sql` pour obtenir les résultats des quêtes.
+2. Exécuter les differents fichier `Quete` pour obtenir les résultats des quêtes.
